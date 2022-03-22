@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-chronos-master.flake = false;
+  inputs.src-chronos-master.ref   = "refs/heads/master";
   inputs.src-chronos-master.owner = "status-im";
-  inputs.src-chronos-master.ref   = "master";
   inputs.src-chronos-master.repo  = "nim-chronos";
   inputs.src-chronos-master.type  = "github";
   
