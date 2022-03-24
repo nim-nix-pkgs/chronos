@@ -2,37 +2,10 @@
   "nodes": {
     "bearssl": {
       "inputs": {
-        "bearssl-master": "bearssl-master",
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
         "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648153002,
-        "narHash": "sha256-QS++BGS8+RXOVlUNCaHVvCEN4qlqnIJIXrZLRSCyGPI=",
-        "owner": "nim-nix-pkgs",
-        "repo": "bearssl",
-        "rev": "d3b7de13815bd112e4963ea6de28c105e5ad3a8c",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "bearssl",
-        "type": "github"
-      }
-    },
-    "bearssl-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "bearssl",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "bearssl",
           "nixpkgs"
         ],
         "src-bearssl-master": "src-bearssl-master",
@@ -40,11 +13,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648153002,
-        "narHash": "sha256-QS++BGS8+RXOVlUNCaHVvCEN4qlqnIJIXrZLRSCyGPI=",
+        "lastModified": 1648164265,
+        "narHash": "sha256-u+1GwLyo49nWSRYqTqwdpFR5e8qCfwDU9plB5iMMwww=",
         "owner": "nim-nix-pkgs",
         "repo": "bearssl",
-        "rev": "d3b7de13815bd112e4963ea6de28c105e5ad3a8c",
+        "rev": "f1b8ea3e35ee696f147f2582887986e46fbcf186",
         "type": "github"
       },
       "original": {
@@ -81,34 +54,7 @@
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
-        "httputils-master": "httputils-master",
         "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648110661,
-        "narHash": "sha256-UWVcjUCoKEcug6xn6MZurazdJjCxzb/+1diwRotAZSI=",
-        "owner": "nim-nix-pkgs",
-        "repo": "httputils",
-        "rev": "1fd43adfc002ca583a53c7d72ad90384c68a04f9",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "httputils",
-        "type": "github"
-      }
-    },
-    "httputils-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "httputils",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "httputils",
           "nixpkgs"
         ],
         "src-httputils-master": "src-httputils-master",
@@ -117,11 +63,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1647922203,
-        "narHash": "sha256-rVAS7aSRJP4644zAP7GVUmsqGOPMYuWNSUy00R9ZsTU=",
+        "lastModified": 1648164685,
+        "narHash": "sha256-U5kQAAkeOormK5YkcT/KkC8Sm9URz9BtbtnzzBJ2I0I=",
         "owner": "nim-nix-pkgs",
         "repo": "httputils",
-        "rev": "73fbe5d22d26ae4122d8733b507835812e69a2d5",
+        "rev": "5aa9097ccacf07f47379c50df5c51c38f3354d39",
         "type": "github"
       },
       "original": {
@@ -276,83 +222,21 @@
       "inputs": {
         "flakeNimbleLib": [
           "httputils",
-          "httputils-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "httputils",
-          "httputils-master",
-          "nixpkgs"
-        ],
-        "stew-master": "stew-master"
-      },
-      "locked": {
-        "lastModified": 1647935004,
-        "narHash": "sha256-EsMiaWuoPhnA6uh5Bjo8G1EXDLuQPHI4vXQUbKtUujI=",
-        "owner": "nim-nix-pkgs",
-        "repo": "stew",
-        "rev": "3e60ee9ba32782a5a34ff424b8c8d290b897dcc6",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "stew",
-        "type": "github"
-      }
-    },
-    "stew-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "httputils",
-          "httputils-master",
-          "stew",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "httputils",
-          "httputils-master",
-          "stew",
           "nixpkgs"
         ],
         "src-stew-master": "src-stew-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1647935004,
-        "narHash": "sha256-EsMiaWuoPhnA6uh5Bjo8G1EXDLuQPHI4vXQUbKtUujI=",
+        "lastModified": 1648163641,
+        "narHash": "sha256-o1mp1U2lK44+JZDk4wYL0ntUijy1+3WGRrAHyr8j/GU=",
         "owner": "nim-nix-pkgs",
         "repo": "stew",
-        "rev": "3e60ee9ba32782a5a34ff424b8c8d290b897dcc6",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "stew",
-        "type": "github"
-      }
-    },
-    "stew-master_2": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "stew",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "stew",
-          "nixpkgs"
-        ],
-        "src-stew-master": "src-stew-master_2"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1648108133,
-        "narHash": "sha256-mT48CapDbojj/LsOxtK4S6s6RhmZEFW8wkoeYVFtQ6Y=",
-        "owner": "nim-nix-pkgs",
-        "repo": "stew",
-        "rev": "fd51cd67444e92ddf7ad7867f44e03e4cc99eba5",
+        "rev": "2f74d82b8dbbd2144103f646070c06cdb1af35c6",
         "type": "github"
       },
       "original": {
@@ -371,17 +255,19 @@
         "nixpkgs": [
           "nixpkgs"
         ],
-        "stew-master": "stew-master_2"
+        "src-stew-master": "src-stew-master_2"
       },
       "locked": {
-        "lastModified": 1648108133,
-        "narHash": "sha256-mT48CapDbojj/LsOxtK4S6s6RhmZEFW8wkoeYVFtQ6Y=",
+        "dir": "master",
+        "lastModified": 1648163641,
+        "narHash": "sha256-o1mp1U2lK44+JZDk4wYL0ntUijy1+3WGRrAHyr8j/GU=",
         "owner": "nim-nix-pkgs",
         "repo": "stew",
-        "rev": "fd51cd67444e92ddf7ad7867f44e03e4cc99eba5",
+        "rev": "2f74d82b8dbbd2144103f646070c06cdb1af35c6",
         "type": "github"
       },
       "original": {
+        "dir": "master",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "stew",
@@ -392,23 +278,21 @@
       "inputs": {
         "flakeNimbleLib": [
           "bearssl",
-          "bearssl-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "bearssl",
-          "bearssl-master",
           "nixpkgs"
         ],
         "src-unittest2-v0_0_3": "src-unittest2-v0_0_3"
       },
       "locked": {
         "dir": "v0_0_3",
-        "lastModified": 1648108197,
-        "narHash": "sha256-dVl3JnhYXReX+MAMubiMhsxHfFxkOfieN6/2ki2TfUg=",
+        "lastModified": 1648163714,
+        "narHash": "sha256-2uFIB/e5j5/oirson4svtxDNOH4HyGWuOm7WTXle/nk=",
         "owner": "nim-nix-pkgs",
         "repo": "unittest2",
-        "rev": "ffc5ceacf522fe8ec16a997728d49642e719eedf",
+        "rev": "f89316ae7912f6e7883021135d91efe039ea4866",
         "type": "github"
       },
       "original": {
@@ -423,23 +307,21 @@
       "inputs": {
         "flakeNimbleLib": [
           "httputils",
-          "httputils-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "httputils",
-          "httputils-master",
           "nixpkgs"
         ],
         "src-unittest2-v0_0_3": "src-unittest2-v0_0_3_2"
       },
       "locked": {
         "dir": "v0_0_3",
-        "lastModified": 1647935047,
-        "narHash": "sha256-+YkpDPXGCefuXBVsa75MnGbJ8jkKhJmx676rmxG17nU=",
+        "lastModified": 1648163714,
+        "narHash": "sha256-2uFIB/e5j5/oirson4svtxDNOH4HyGWuOm7WTXle/nk=",
         "owner": "nim-nix-pkgs",
         "repo": "unittest2",
-        "rev": "632ac00c19b3d8bdec95bdc44e5c34310a55fd89",
+        "rev": "f89316ae7912f6e7883021135d91efe039ea4866",
         "type": "github"
       },
       "original": {
