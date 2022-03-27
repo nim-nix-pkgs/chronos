@@ -11,6 +11,7 @@
   inputs.src-chronos-master.ref   = "refs/heads/master";
   inputs.src-chronos-master.owner = "status-im";
   inputs.src-chronos-master.repo  = "nim-chronos";
+  inputs.src-chronos-master.dir   = "";
   inputs.src-chronos-master.type  = "github";
   
   inputs."stew".owner = "nim-nix-pkgs";
