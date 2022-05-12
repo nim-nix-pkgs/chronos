@@ -7,8 +7,98 @@
   "license": "Apache License 2.0",
   "web": "https://github.com/status-im/nim-chronos",
   "refs": [
-    "fatal: unable to access 'https://github.com/status-im/nim-chronos/': SSL connection timeout",
+    "refs/heads/accept-temp",
+    "refs/heads/achannels",
+    "refs/heads/apphttp",
+    "refs/heads/asyncproc",
+    "refs/heads/benchmarks",
+    "refs/heads/cleanup-deleted-timers",
+    "refs/heads/completed-futures",
+    "refs/heads/datagramrace",
+    "refs/heads/defect",
+    "refs/heads/fix-cancel-race",
+    "refs/heads/fix-http-assert",
+    "refs/heads/fix-rlpx",
+    "refs/heads/fix-srcloc",
+    "refs/heads/fix270",
+    "refs/heads/fixfuturevar",
+    "refs/heads/gc-orc",
+    "refs/heads/interval",
+    "refs/heads/master",
+    "refs/heads/nice-stacktraces",
+    "refs/heads/onfinish",
+    "refs/heads/raisetracking",
+    "refs/heads/raisetracking2",
+    "refs/heads/rate-limiter",
+    "refs/heads/ratelimiter2",
+    "refs/heads/removecycle",
+    "refs/heads/removecycle2",
+    "refs/heads/restoretlstest",
+    "refs/heads/semaphore",
+    "refs/heads/streams2",
+    "refs/heads/tanguyfixcancelrace",
+    "refs/heads/tunnel",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "chronos",
+      "version": "3.0.11",
+      "author": "Status Research & Development GmbH",
+      "desc": "Chronos",
+      "license": "Apache License 2.0 or MIT",
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": "> 1.2.0",
+          "ver": {
+            "kind": "verLater",
+            "ver": "1.2.0"
+          }
+        },
+        {
+          "name": "stew",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "bearssl",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "httputils",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "https://github.com/status-im/nim-unittest2.git",
+          "str": "#head",
+          "ver": {
+            "kind": "verSpecial",
+            "spe": "#head"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
