@@ -17,7 +17,6 @@
     "refs/heads/datagramrace",
     "refs/heads/defect",
     "refs/heads/fix-cancel-race",
-    "refs/heads/fix-http-assert",
     "refs/heads/fix-rlpx",
     "refs/heads/fix-srcloc",
     "refs/heads/fix270",
